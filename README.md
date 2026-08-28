@@ -35,6 +35,7 @@ A lightweight Windows system tray application that monitors active COM ports (in
    cd COM-poort-watcher
 
 
+
 ## Step 2: Install Dependencies
 
 1. **Clone the repository:**
@@ -42,19 +43,26 @@ A lightweight Windows system tray application that monitors active COM ports (in
    pip install pywin32 pystray pillow pyserial
 
 
+
 2. **Running the application:**
    ```bash
    pythonw com_watcher.pyw
+
+
 
 3. **Installing pyinstaller to build a standalone exe:**
    ```bash
    pip install pyinstaller
 
+
+
 4. **Buildng the executable:**
    ```bash
    python -m PyInstaller --noconsole --onefile --exclude-module tkinter --exclude-module matplotlib --exclude-module scipy --exclude-module numpy --exclude-module unittest --exclude-module pydoc com_watcher.pyw
-  
-5. **Running on windows startup:**
+
+
+
+4. **Running on windows startup:**
 
 Press Win + R to open the Run prompt.
 Type shell:startup and press Enter.
