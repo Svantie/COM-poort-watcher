@@ -32,7 +32,6 @@ A lightweight Windows system tray application that monitors active COM ports (in
    ```bash
    git clone [https://github.com/your-username/COM-poort-watcher.git](https://github.com/your-username/COM-poort-watcher.git)
 
-  ```bash
    cd COM-poort-watcher
 
 
