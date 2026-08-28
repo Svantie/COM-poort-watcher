@@ -58,3 +58,12 @@ A lightweight Windows system tray application that monitors active COM ports (in
 Press Win + R to open the Run prompt.
 Type shell:startup and press Enter.
 Create a shortcut to com_watcher.exe (or com_watcher.pyw) inside this Startup folder.
+
+
+
+**Usage Guide:**
+
+Check active ports: Hover over the COM tray icon.
+Port details: Right-click the icon and expand any detected COM port to view its VID:PID, Serial Number, and HWID.
+Open Device Manager: Right-click the icon and select Open Device Manager.
+Exit app: Right-click the icon and select Exit.
